@@ -1,0 +1,6 @@
+{
+  "parser": "babel-eslint",
+  "rules": {
+    "jsx-a11y/accessible-emoji": "off"
+  }
+}

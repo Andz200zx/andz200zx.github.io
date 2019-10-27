@@ -2,12 +2,14 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
 .App-header {
-  background-color: #282c34;
+  background: linear-gradient(
+    0deg,
+    #020024 0%,
+    #30303d 33%,
+    #15677c 67%,
+    #00d4ff 100%
+  );
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -15,8 +17,4 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #09d3ac;
 }
