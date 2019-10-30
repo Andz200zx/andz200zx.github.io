@@ -1,0 +1,32 @@
+.container {
+  width: 100%;
+}
+
+.grid {
+  /* padding: 0 20px; */
+  width: 100%;
+  min-height: 100%;
+  background: #999999;
+
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 2fr 1fr;
+}
+
+.currentWeight {
+  color: #222222;
+  font-size: 128px;
+  font-weight: 300;
+}
+
+.b {
+  background: rgb(117, 7, 7);
+}
+
+.c {
+  background: rgb(224, 185, 11);
+}
+
+.d {
+  background: rgb(7, 117, 16);
+}
