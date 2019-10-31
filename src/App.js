@@ -8,12 +8,14 @@ import Coffee from "./coffee";
 class App extends React.Component {
   render() {
     return (
-      <HashRouter basename="/">
-        <Link to="/">🏠</Link>
-        <Link to="/coffee">☕️</Link>
-        <Route exact path="/" component={Home} />
-        <Route path="/coffee" component={Coffee} />
-      </HashRouter>
+      <div className="App">
+        <HashRouter basename="/">
+          <Link to="/">🏠</Link>
+          <Link to="/coffee">☕️</Link>
+          <Route exact path="/" component={Home} />
+          <Route path="/coffee" component={Coffee} />
+        </HashRouter>
+      </div>
     );
   }
 }
